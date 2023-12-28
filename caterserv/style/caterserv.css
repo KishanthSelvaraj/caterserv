@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Metal+Mania&family=Playball&display=swap');
+.circlee{
+ width: 40px;
+ height: 40px;
+ border-radius: 40px;
+ border: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(207, 154, 85);
+
+}
+.form-inline{
+    display: flex;
+}
+.but{
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(207, 154, 85);
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+.butt{
+    width: max-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(207, 154, 85);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.a{
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+span{
+    color: burlywood;
+}
+a{
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: burlywood;
+}
+a:hover{
+    cursor: pointer;
+    color: burlywood;
+}
+.collapse{
+    padding: 20px;
+}
+.row{
+    padding: 12px;
+}
+.wel{
+    border:solid 1px rgb(207, 154, 85);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+}
+.d4{
+    font-family: 'Playball', cursive;
+    font-size: 65px;
+}
+.d44{
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+}
+.pad{
+    padding: 20px;
+}
+.para{
+    color: gray;
+}
+.li{
+    font-size: 16px;
+}
+.about{
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(207, 154, 85);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.ab{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border:solid 1px rgb(207, 154, 85);
+    border-radius: 40px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+}
+.simg{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+.i{
+margin-left: 8px;
+}
+.im{
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.i2{
+    margin-right: 8px;
+    color:rgb(207, 154, 85) ;
+    
+}
+.cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font{
+    
+    font-size: 45px;
+    font-family: 'Playball', cursive;
+    font-weight: bold;
+}
+.fonticon{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.ti{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.faqt-item{
+    background-color: rgb(207, 154, 85);
+    display: grid;
+    align-items: center;
+
+    gap: 4px;
+    border-radius: 10px;
+    height: 260px;
+    margin-bottom: 15px;
+    
+}
+/* @media all and (min-width: 992px) {
+    .bro{
+        margin-left: -30px;
+        margin-top: 55px;
+    }
+    .imm{
+        height: 400px;
+        width: 400px;
+        margin-left: 110px;
+        border-radius: 20px;
+    }
+} */
+.vimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border:solid 1px rgb(207, 154, 85);
+    border-radius: 40px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+.con2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+.consub{
+    display: flex;
+    justify-content: center;
+}
+ .wow .our{
+    border:solid 1px rgb(207, 154, 85);
+}
+.fas{
+    color: rgb(207, 154, 85);
+
+}
+
+/* boxes */
+.woww {
+    position: relative;
+    overflow: hidden;
+}
+
+.woww::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(to bottom, #d4a762, #d4a762);
+    transition: height 1s ease;
+    z-index: -1;
+
+}
+.service-content-icon:hover .fas{
+    color: black;
+}
+
+.woww:hover::before {
+    height: 100%;
+}
+
+.woww .btn {
+    background-color:rgb(207, 154, 85) ; 
+    color: black; 
+    transition: background-color 1s ease, color 1s ease;
+}
+.tx{
+    color: gray;
+}
+ .woww:hover .tx{
+    color: white;
+}
+.woww:hover .btn {
+    background-color: white;
+    color: black;
+}
+.service-content-icon .btn:hover{
+    background-color: black;
+    color:#d4a762;
+}
+.st{
+    font-family: 'Playball', cursive;
+}
+.wow{
+  visibility:visible; 
+  animation-delay:0.1s;
+  animation-name:bounceInUp;
+}
+.bg{
+    margin-bottom: 10px;
+}
+.event-list{
+    border: 1px solid hsl(36, 57%, 61%);
+    border-radius: 22px;
+    padding: 7px 15px;
+    background: transparent;
+}
+@media  screen and (max-width:1000px) {
+    .event-ul{
+        display: inline-block;
+        flex-wrap: wrap;   
+    }
+}
+.event-list-1{
+   background:burlywood;
+   color: #000;
+}
+.event-h4{
+    color: #000;
+    display: none;
+    transition: .6s;
+}
+.ico-plus{
+    display: none;
+    font-size: 2em;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.card-3:hover .ico-plus{
+    display: inline;
+    color: black;
+    z-index: 1;
+}
+.card-3:hover .event-h4{
+    display: inline;
+    cursor: pointer;
+    color: black;
+    z-index: 1;
+}
+.card-3:hover{
+    cursor: pointer;
+    opacity: 2;
+}
+.img-container{
+    position: relative;
+    overflow: hidden;
+}
+.img-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:hsl(36, 57%, 61%) !important;
+    opacity: 0 !important;
+    transition: opacity .3s ease;
+}
+.image-1{
+    z-index: 1;
+}
+.img-container:hover::before{
+    opacity: 0.6 !important;
+}
+/* Fourth Content End */
+/* Final Content Start */
+.img-circle{
+    border-radius: 50%;
+}
+.col-title{
+    font-family: 'Playball',cursive;
+    font-size: 30px;
+}
+.final-clr{
+    color: hsl(36, 57%, 61%);
+}
+.final-content{
+    background-color:  hwb(24 38% 11%);
+}
+.content-title{
+    font-family: 'Playball', cursive;
+    font-size: 46px;
+}
+.services{
+    border:solid 0.8px burlywood;
+    padding: 13px;
+    color: rgb(68, 64, 64);
+    font-size: 15px;
+    border-radius: 30px;
+    
+}
+.services:hover{
+    text-decoration: none;
+    color: black;
+}
+.sel{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid 0.9px burlywood;
+    margin: 10px;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.sub{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(219, 152, 66) ;
+    margin-top: 20px;
+    
+}
+.sub:hover{
+    color: burlywood;
+    background-color: black;
+}
+.ful{
+    border-top: solid 0.8px  burlywood;
+    border-bottom: solid 0.8px  burlywood;
+}
+.bord{
+    border: none;
+    border-top: 1px dashed #999;
+    height: 0;
+    margin: 20px 0;
+    color: burlywood;
+}
+/* before */
+.card-footer{
+    background-color: #000 !important;
+}
+.card-footer>h4{
+    color: rgb(235, 182, 112);
+}
+.card-4:hover .card-footer{
+    background: rgb(235, 182, 112) !important;
+}
+.card-4:hover .card-footer>h4{
+    color: #000;
+}
+.card-footer>h5{
+    color: white
+}
+.chef-ic1{
+    background: rgb(235, 182, 112);
+    width: fit-content;
+    border-radius: 50%;
+    color: black;
+    padding: 7px 10px;
+    transition: .9s;
+}
+.chef-ic1:hover{
+    background: black;
+    color: rgb(235, 182, 112);
+}
+.card-4 .card-tex{
+    display: none;
+    cursor: pointer;
+    transition: .9s;
+}
+.card-4:hover .card-tex{
+    display: block;
+    cursor: pointer;
+    transition: .9s;
+}
+/* ------------------------------------------ */
+.share{
+    position: absolute;
+    font-size: large;
+    display: flex;
+    justify-content: end;
+    bottom: 330px;
+    right: 100px;
+    color:black;
+    background-color: rgb(234, 153, 48);
+}
+.share i{
+    color: black;
+}
+.zoom:hover{
+    animation:forwards;
+    animation-duration: 3s;
+}
+/* final */
+.final-content{
+    background-color: white;
+}
+.final-content i{
+color: rgb(224, 164, 85);
+}
+.final-content .text-muted{
+    color: gray;
+}
+.food1{
+    display: flex;
+    flex-direction: row;
+}
+.food2{
+    display: flex;
+    flex-direction: row;
+}
+/* <!--Final-1 Layout--> */
+.final-layouts{
+    background: #000;
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+}
+ .reserved{
+    color: burlywood;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.rights{
+    color: burlywood ;
+    cursor: pointer;
+} 
+.top{
+    margin-top: -10%;
+}
+.blog-date{
+    background-color:#d4a762;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+.top a:hover{
+    color:#d4a762 ;
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid #d4a762;
+    padding: 6px;
+    width:80px;
+}
+.brand-icon i{
+    background:#d4a762 ;
+    padding: 10px;
+    border-radius : 50%;
+    transition: .9s;
+    color: black;
+}
+.brand-icon>i:hover{
+    background-color:black;
+    color:#d4a762;
+}
+.vedio-icon {
+    position: absolute;
+    top: 49%;
+    width: 9%;
+    padding: 6px 7px;
+    font-size: 30px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;
+    transition: .10s;
+    cursor: pointer;
+}
+
+.vedio-icon:hover {
+    color: white;
+}
+.block-img{
+    transition: transform 0.3s ease-in-out;
+    z-index: -1px;
+}
+
+.block-img:hover {
+    
+    transform: scale(1.2);
+
+}
+.top {
+    margin-top: -10%;
+    z-index: 1;
+}
+.blog-link{
+    background-color: #fff;
+    text-decoration: none;
+    z-index: 1;
+}
+.blog-date{
+    z-index: 1;
+}
+/* .bounceInUp {
+    animation: bounce-in-right 2s infinite ;
+  }
+  @keyframes bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateX(800px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  } */
+  @media  all and (max-width:993px) {
+    .no{
+        display: none;
+    }
+  }
+  @media screen and ((max-width:2570px) and (min-width:1440px)){
+   .cock{
+    font-size: 23px;
+   }
+  }
+  @media screen and ((max-width:1440px) and (min-width:1024px)){
+    .cock{
+        font-size: 1.3rem;
+    }
+  }
+  @media screen and ((max-width:1024px) and (min-width:768px)){
+    .ali{
+        font-size: 1.2rem;
+    }
+    .d4{
+        font-size: 58px;
+    }
+  }
+  @media screen and ((max-width:768px) and (min-width:426px)){
+     /* .showleft .d4{
+        font-size: 60px;
+    } */
+
+    .wid{
+        width: 100%;
+    }
+  }
+  @media screen and (( max-width:600px ) and ( min-width:365px )){
+    .wetxt{
+        font-size: 15px;
+    }
+    .bigname{
+        font-size: 40px;
+    }
+    .a{
+        font-size: 30px;
+    }
+    .move{
+        width: 400px;
+    }
+   
+  }
+  .bb{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  @media screen and (( max-width:380px ) and ( min-width:320px )){
+    .wetxt{
+        font-size: 13px;
+    }
+    .bigname{
+        font-size: 30px;
+    }
+    .a{
+        font-size: 30px;
+    }
+    .ab{
+        font-size: 13px;
+    }
+
+  }
+  @media screen and ((max-width:330px) and (min-width:0px)){
+    .wetxt{
+        font-size: 10.5px;
+    }
+    .bigname{
+        font-size: 30px;
+    }
+    .buttxt{
+        font-size: 14px;
+    }
+    .event-list{
+        font-size: 18px;
+    }
+    .ab{
+        font-size: 11px;
+    }
+ }
